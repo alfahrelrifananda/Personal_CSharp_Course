@@ -1,0 +1,14 @@
+C:\Users\F\source\repos\MyCSharpCourse\MyCSharpCourse\bin\Debug\net8.0\MyCSharpCourse.exe
+C:\Users\F\source\repos\MyCSharpCourse\MyCSharpCourse\bin\Debug\net8.0\MyCSharpCourse.deps.json
+C:\Users\F\source\repos\MyCSharpCourse\MyCSharpCourse\bin\Debug\net8.0\MyCSharpCourse.runtimeconfig.json
+C:\Users\F\source\repos\MyCSharpCourse\MyCSharpCourse\bin\Debug\net8.0\MyCSharpCourse.dll
+C:\Users\F\source\repos\MyCSharpCourse\MyCSharpCourse\bin\Debug\net8.0\MyCSharpCourse.pdb
+C:\Users\F\source\repos\MyCSharpCourse\MyCSharpCourse\obj\Debug\net8.0\MyCSharpCourse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\F\source\repos\MyCSharpCourse\MyCSharpCourse\obj\Debug\net8.0\MyCSharpCourse.AssemblyInfoInputs.cache
+C:\Users\F\source\repos\MyCSharpCourse\MyCSharpCourse\obj\Debug\net8.0\MyCSharpCourse.AssemblyInfo.cs
+C:\Users\F\source\repos\MyCSharpCourse\MyCSharpCourse\obj\Debug\net8.0\MyCSharpCourse.csproj.CoreCompileInputs.cache
+C:\Users\F\source\repos\MyCSharpCourse\MyCSharpCourse\obj\Debug\net8.0\MyCSharpCourse.dll
+C:\Users\F\source\repos\MyCSharpCourse\MyCSharpCourse\obj\Debug\net8.0\refint\MyCSharpCourse.dll
+C:\Users\F\source\repos\MyCSharpCourse\MyCSharpCourse\obj\Debug\net8.0\MyCSharpCourse.pdb
+C:\Users\F\source\repos\MyCSharpCourse\MyCSharpCourse\obj\Debug\net8.0\MyCSharpCourse.genruntimeconfig.cache
+C:\Users\F\source\repos\MyCSharpCourse\MyCSharpCourse\obj\Debug\net8.0\ref\MyCSharpCourse.dll
