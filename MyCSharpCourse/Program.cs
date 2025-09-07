@@ -130,6 +130,7 @@ public class Program
 
         // ! 8.
         // * Math Class
+        /*
         double x = 3.14;
         double y = 4.54;
 
@@ -151,5 +152,21 @@ public class Program
         double h = Math.Max(x, y);
 
         System.Console.WriteLine(h);
+        */
+
+        // ! 9.
+        // *  Random
+        Random rand = new Random();
+
+        int num1 = rand.Next(1, 7);
+        int num2 = rand.Next(1, 7);
+        int num3 = rand.Next(1, 7);
+        //double numD = rand.NextDouble();
+
+        Console.WriteLine(num1);
+        Console.WriteLine(num2);
+        Console.WriteLine(num3);
+        //Console.WriteLine(numD);
+
     }
 }

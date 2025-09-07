@@ -12,3 +12,4 @@ C:\Users\F\source\repos\MyCSharpCourse\MyCSharpCourse\obj\Debug\net8.0\refint\My
 C:\Users\F\source\repos\MyCSharpCourse\MyCSharpCourse\obj\Debug\net8.0\MyCSharpCourse.pdb
 C:\Users\F\source\repos\MyCSharpCourse\MyCSharpCourse\obj\Debug\net8.0\MyCSharpCourse.genruntimeconfig.cache
 C:\Users\F\source\repos\MyCSharpCourse\MyCSharpCourse\obj\Debug\net8.0\ref\MyCSharpCourse.dll
+C:\Users\F\source\repos\MyCSharpCourse\MyCSharpCourse\obj\Debug\net8.0\MyCSharpCourse.sourcelink.json
