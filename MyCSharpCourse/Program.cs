@@ -172,6 +172,7 @@ public class Program
 
         // ! 10.
         // * Find Hypotenuse of triangle
+        /*
         Console.Write("Enter side A : ");
         double a = Convert.ToDouble(Console.ReadLine());
 
@@ -182,5 +183,32 @@ public class Program
         double c = Math.Sqrt((a * a) + (b * b));
 
         Console.WriteLine("The hypotenuse is : " + c);
+        */
+
+        // ! 11.
+        // * String methods
+        String fullName = "Alfahrel Rifananda";
+        String phoneNumber = "+628-9231-7498";
+
+        //fullName = fullName.ToUpper();
+        //fullName = fullName.ToLower();
+
+        //Console.WriteLine(fullName);
+
+        //phoneNumber = phoneNumber.Replace("-", "");
+        //Console.WriteLine(phoneNumber.Length);
+
+        //String userName = fullName.Insert(0, "Mr. ");
+        //Console.WriteLine(userName);
+
+        String firstName = fullName.Substring(0, 8);
+        String lastName = fullName.Substring(9, 9);
+
+        Console.WriteLine(firstName);
+        Console.WriteLine(lastName);
+
+        Console.ReadKey();
+
+
     }
 }
