@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ZkgqW0w60Pc=",
+  "dgSpecHash": "QWT5AaUK494=",
   "success": true,
-  "projectFilePath": "C:\\Users\\F\\source\\repos\\MyCSharpCourse\\MyCSharpCourse\\MyCSharpCourse.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/rel/Documents/Development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/MyCSharpCourse.csproj",
+  "expectedPackageFiles": [
+    "/home/rel/.nuget/packages/microsoft.netcore.app.ref/8.0.20/microsoft.netcore.app.ref.8.0.20.nupkg.sha512",
+    "/home/rel/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.20/microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512",
+    "/home/rel/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.20/microsoft.netcore.app.host.linux-x64.8.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

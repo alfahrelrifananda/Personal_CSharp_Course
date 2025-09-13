@@ -187,8 +187,8 @@ public class Program
 
         // ! 11.
         // * String methods
-        String fullName = "Alfahrel Rifananda";
-        String phoneNumber = "+628-9231-7498";
+        // String fullName = "Alfahrel Rifananda";
+        // String phoneNumber = "+628-9231-7498";
 
         //fullName = fullName.ToUpper();
         //fullName = fullName.ToLower();
@@ -201,14 +201,11 @@ public class Program
         //String userName = fullName.Insert(0, "Mr. ");
         //Console.WriteLine(userName);
 
-        String firstName = fullName.Substring(0, 8);
-        String lastName = fullName.Substring(9, 9);
+        // String firstName = fullName.Substring(0, 8);
+        // String lastName = fullName.Substring(9, 9);
 
-        Console.WriteLine(firstName);
-        Console.WriteLine(lastName);
-
-        Console.ReadKey();
-
+        // Console.WriteLine(firstName);
+        // Console.WriteLine(lastName);
 
     }
 }
