@@ -207,5 +207,38 @@ public class Program
         // Console.WriteLine(firstName);
         // Console.WriteLine(lastName);
 
+        // ! 12.
+        // * IF Statement
+        System.Console.Write("Enter your name : ");
+        String name = Console.ReadLine();
+
+        System.Console.Write("Enter your age : ");
+        int age = Convert.ToInt32(Console.ReadLine());
+
+        if (name == "")
+        {
+            System.Console.WriteLine("You didn't enter your name");
+        }
+        else
+        {
+            System.Console.WriteLine("Hello " + name);
+        }
+
+        if (age > 100)
+        {
+            System.Console.WriteLine("You are too old to sign up!");
+        }
+        else if (age >= 18)
+        {
+            System.Console.WriteLine("You are signed up!");
+        }
+        else if (age < 0)
+        {
+            System.Console.WriteLine("You haven't been born yet");
+        }
+        else
+        {
+            System.Console.WriteLine("You need to be at least 18 to sign up");
+        }
     }
 }
