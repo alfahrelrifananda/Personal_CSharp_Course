@@ -209,6 +209,7 @@ public class Program
 
         // ! 12.
         // * IF Statement
+        /*
         System.Console.Write("Enter your name : ");
         String name = Console.ReadLine();
 
@@ -239,6 +240,41 @@ public class Program
         else
         {
             System.Console.WriteLine("You need to be at least 18 to sign up");
+        }
+        */
+
+        // ! 13.
+        // * Switch Statement
+
+        System.Console.Write("What day is today? : ");
+        String day = Console.ReadLine();
+
+        switch (day)
+        {
+            case "Monday":
+                System.Console.WriteLine("It's Monday");
+                break;
+            case "Tuesday":
+                System.Console.WriteLine("It's Tuesday");
+                break;
+            case "Wednesday":
+                System.Console.WriteLine("It's Wednesday");
+                break;
+            case "Thursday":
+                System.Console.WriteLine("It's Thursday");
+                break;
+            case "Friday":
+                System.Console.WriteLine("It's Friday");
+                break;
+            case "Saturday":
+                System.Console.WriteLine("It's Saturday");
+                break;
+            case "Sunday":
+                System.Console.WriteLine("It's Sunday");
+                break;
+            default:
+                System.Console.WriteLine(day + " is not a day!");
+                break;
         }
     }
 }
