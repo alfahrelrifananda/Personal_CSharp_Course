@@ -280,6 +280,7 @@ public class Program
 
         // ! 14.
         // * Logical Operator
+        /*
         System.Console.Write("What's the temperature outside? (celcius) : ");
         double temperature = Convert.ToDouble(Console.ReadLine());
 
@@ -295,5 +296,19 @@ public class Program
         {
             System.Console.WriteLine("Uhh... I don't know what the temperature is");
         }
+        */
+        // ! 15.
+        // * While loops
+        System.Console.Write("Enter your name : ");
+        String name = Console.ReadLine();
+
+        while (name == "")
+        {
+            System.Console.WriteLine("You didn't enter your name");
+            System.Console.Write("Enter your name : ");
+            name = Console.ReadLine();
+        }
+
+        System.Console.WriteLine("Hello " + name);
     }
 }
