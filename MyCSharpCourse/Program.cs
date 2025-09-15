@@ -245,7 +245,7 @@ public class Program
 
         // ! 13.
         // * Switch Statement
-
+        /*
         System.Console.Write("What day is today? : ");
         String day = Console.ReadLine();
 
@@ -275,6 +275,25 @@ public class Program
             default:
                 System.Console.WriteLine(day + " is not a day!");
                 break;
+        }
+        */
+
+        // ! 14.
+        // * Logical Operator
+        System.Console.Write("What's the temperature outside? (celcius) : ");
+        double temperature = Convert.ToDouble(Console.ReadLine());
+
+        if (temperature >= 0 && temperature <= 30)
+        {
+            System.Console.WriteLine("The temperature is good today");
+        }
+        else if (temperature < 0 || temperature > 30)
+        {
+            System.Console.WriteLine("The temperature is bad today");
+        }
+        else
+        {
+            System.Console.WriteLine("Uhh... I don't know what the temperature is");
         }
     }
 }
