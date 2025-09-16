@@ -360,5 +360,7 @@ public class Program
             System.Console.WriteLine("This will repeat 10 times but backwards");
             System.Console.WriteLine(i);
         }
+
+        System.Console.WriteLine("Happy New Year!");
     }
 }
