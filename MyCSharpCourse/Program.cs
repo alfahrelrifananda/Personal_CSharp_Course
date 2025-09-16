@@ -328,6 +328,37 @@ public class Program
         */
 
         // ! 16.
-        // * 
+        // * For loops
+        /*
+        for (int i = 1; i <= 10; i++)
+        {
+            System.Console.WriteLine("This will repeat 10 times");
+            System.Console.WriteLine(i);
+        }
+
+        System.Console.WriteLine("==============================");
+
+        for (int i = 1; i <= 10; i += 2)
+        {
+            System.Console.WriteLine("This will repeat 5 times");
+            System.Console.WriteLine(i);
+        }
+
+
+        System.Console.WriteLine("==============================");
+
+        for (int i = 1; i <= 10; i += 3)
+        {
+            System.Console.WriteLine("This will repeat 4 times");
+            System.Console.WriteLine(i);
+        }
+        System.Console.WriteLine("==============================");
+        */
+
+        for (int i = 10; i >= 1; i--)
+        {
+            System.Console.WriteLine("This will repeat 10 times but backwards");
+            System.Console.WriteLine(i);
+        }
     }
 }
