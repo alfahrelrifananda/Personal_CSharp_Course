@@ -297,18 +297,37 @@ public class Program
             System.Console.WriteLine("Uhh... I don't know what the temperature is");
         }
         */
+
         // ! 15.
         // * While loops
+        /*
+        int attempt = 0;
         System.Console.Write("Enter your name : ");
         String name = Console.ReadLine();
 
         while (name == "")
         {
-            System.Console.WriteLine("You didn't enter your name");
+            attempt++;
+            if (attempt >= 5)
+            {
+                System.Console.WriteLine("Stop being annoying!");
+            }
+            else
+            {
+                System.Console.WriteLine("You didn't enter your name");
+            }
             System.Console.Write("Enter your name : ");
             name = Console.ReadLine();
         }
 
+        if (attempt >= 5)
+        {
+            System.Console.WriteLine("There you go...");
+        }
         System.Console.WriteLine("Hello " + name);
+        */
+
+        // ! 16.
+        // * 
     }
 }
