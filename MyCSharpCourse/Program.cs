@@ -353,7 +353,6 @@ public class Program
             System.Console.WriteLine(i);
         }
         System.Console.WriteLine("==============================");
-        */
 
         for (int i = 10; i >= 1; i--)
         {
@@ -362,5 +361,26 @@ public class Program
         }
 
         System.Console.WriteLine("Happy New Year!");
+        */
+
+        // ! 17.
+        // * Nested loops
+        System.Console.Write("How many rows? : ");
+        int rows = Convert.ToInt32(Console.ReadLine());
+
+        System.Console.Write("How many columns? : ");
+        int columns = Convert.ToInt32(Console.ReadLine());
+
+        System.Console.Write("What symbol? : ");
+        char symbol = Convert.ToChar(Console.ReadLine());
+
+        for (int i = 1; i <= rows; i++)
+        {
+            for (int j = 1; j <= columns; j++)
+            {
+                System.Console.Write(symbol);
+            }
+            System.Console.WriteLine();
+        }
     }
 }
