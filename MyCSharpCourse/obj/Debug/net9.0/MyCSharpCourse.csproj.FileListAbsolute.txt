@@ -1,0 +1,15 @@
+/home/rel/Documents/Development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/bin/Debug/net9.0/MyCSharpCourse
+/home/rel/Documents/Development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/bin/Debug/net9.0/MyCSharpCourse.deps.json
+/home/rel/Documents/Development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/bin/Debug/net9.0/MyCSharpCourse.runtimeconfig.json
+/home/rel/Documents/Development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/bin/Debug/net9.0/MyCSharpCourse.dll
+/home/rel/Documents/Development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/bin/Debug/net9.0/MyCSharpCourse.pdb
+/home/rel/Documents/Development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/obj/Debug/net9.0/MyCSharpCourse.GeneratedMSBuildEditorConfig.editorconfig
+/home/rel/Documents/Development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/obj/Debug/net9.0/MyCSharpCourse.AssemblyInfoInputs.cache
+/home/rel/Documents/Development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/obj/Debug/net9.0/MyCSharpCourse.AssemblyInfo.cs
+/home/rel/Documents/Development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/obj/Debug/net9.0/MyCSharpCourse.csproj.CoreCompileInputs.cache
+/home/rel/Documents/Development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/obj/Debug/net9.0/MyCSharpCourse.sourcelink.json
+/home/rel/Documents/Development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/obj/Debug/net9.0/MyCSharpCourse.dll
+/home/rel/Documents/Development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/obj/Debug/net9.0/refint/MyCSharpCourse.dll
+/home/rel/Documents/Development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/obj/Debug/net9.0/MyCSharpCourse.pdb
+/home/rel/Documents/Development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/obj/Debug/net9.0/MyCSharpCourse.genruntimeconfig.cache
+/home/rel/Documents/Development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/obj/Debug/net9.0/ref/MyCSharpCourse.dll

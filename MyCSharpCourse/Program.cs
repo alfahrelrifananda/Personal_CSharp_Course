@@ -365,6 +365,7 @@ public class Program
 
         // ! 17.
         // * Nested loops
+        /*
         System.Console.Write("How many rows? : ");
         int rows = Convert.ToInt32(Console.ReadLine());
 
@@ -381,6 +382,63 @@ public class Program
                 System.Console.Write(symbol);
             }
             System.Console.WriteLine();
+        }
+        */
+
+        // ! 18.
+        // * Number guessing game
+        Random rand = new Random();
+        bool playAgain = true;
+        int min = 1;
+        int max = 100;
+        int number;
+        int guess;
+        int attempts;
+        String response;
+
+        while (playAgain)
+        {
+            number = rand.Next(min, max + 1);
+            guess = 0;
+            attempts = 0;
+
+            System.Console.WriteLine("=====================================");
+            System.Console.WriteLine("Welcome to the Number Guessing Game!");
+            System.Console.WriteLine("=====================================");
+            System.Console.WriteLine("I'm thinking of a number between " + min + " and " + max);
+            while (guess != number)
+            {
+                System.Console.Write("Enter your guess: ");
+                guess = Convert.ToInt32(Console.ReadLine());
+                attempts++;
+
+                if (guess < number)
+                {
+                    System.Console.WriteLine("Too low! Try again.");
+                }
+                else if (guess > number)
+                {
+                    System.Console.WriteLine("Too high! Try again.");
+                }
+                else
+                {
+                    System.Console.WriteLine(
+                        "Congratulations! You've guessed the number "
+                            + number
+                            + " in "
+                            + attempts
+                            + " attempts."
+                    );
+                }
+            }
+
+            System.Console.Write("Do you want to play again? (yes/no): ");
+            response = Console.ReadLine().ToLower();
+            if (response != "yes")
+            {
+                playAgain = false;
+                System.Console.WriteLine("Thank you for playing! Goodbye!");
+            }
         }
     }
 }
