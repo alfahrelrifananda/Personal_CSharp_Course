@@ -387,6 +387,7 @@ public class Program
 
         // ! 18.
         // * Number guessing game
+        /*
         Random rand = new Random();
         bool playAgain = true;
         int min = 1;
@@ -435,6 +436,105 @@ public class Program
             System.Console.Write("Do you want to play again? (yes/no): ");
             response = Console.ReadLine().ToLower();
             if (response != "yes")
+            {
+                playAgain = false;
+                System.Console.WriteLine("Thank you for playing! Goodbye!");
+            }
+        }
+        */
+
+        // ! 19.
+        // * Rock Paper Scissors Game
+        Random rand = new Random();
+        bool playAgain = true;
+        string player;
+        string computer;
+        string answer;
+
+        while (playAgain)
+        {
+            int randNum = rand.Next(1, 4);
+            player = "";
+            computer = "";
+            answer = "";
+
+            System.Console.WriteLine("=================================");
+            System.Console.WriteLine("Welcome to Rock, Paper, Scissors!");
+            System.Console.WriteLine("=================================");
+            switch (randNum)
+            {
+                case 1:
+                    computer = "rock";
+                    break;
+                case 2:
+                    computer = "paper";
+                    break;
+                case 3:
+                    computer = "scissors";
+                    break;
+                default:
+                    computer = "rock";
+                    break;
+            }
+
+            System.Console.Write("Enter rock, paper, or scissors: ");
+            player = Console.ReadLine().ToLower();
+
+            switch (player)
+            {
+                case "rock":
+                    System.Console.WriteLine("Computer chose " + computer);
+                    if (computer == "rock")
+                    {
+                        System.Console.WriteLine("It's a tie!");
+                    }
+                    else if (computer == "paper")
+                    {
+                        System.Console.WriteLine("You lose!");
+                    }
+                    else
+                    {
+                        System.Console.WriteLine("You win!");
+                    }
+                    break;
+                case "paper":
+                    System.Console.WriteLine("Computer chose " + computer);
+                    if (computer == "rock")
+                    {
+                        System.Console.WriteLine("You win!");
+                    }
+                    else if (computer == "paper")
+                    {
+                        System.Console.WriteLine("It's a tie!");
+                    }
+                    else
+                    {
+                        System.Console.WriteLine("You lose!");
+                    }
+                    break;
+                case "scissors":
+                    System.Console.WriteLine("Computer chose " + computer);
+                    if (computer == "rock")
+                    {
+                        System.Console.WriteLine("You lose!");
+                    }
+                    else if (computer == "paper")
+                    {
+                        System.Console.WriteLine("You win!");
+                    }
+                    else
+                    {
+                        System.Console.WriteLine("It's a tie!");
+                    }
+                    break;
+                default:
+                    System.Console.WriteLine("Invalid input! You get rock by default.");
+                    break;
+            }
+
+            System.Console.Write("Do you want to play again? (yes/no): ");
+            answer = Console.ReadLine().ToLower();
+            if (answer != "yes")
             {
                 playAgain = false;
                 System.Console.WriteLine("Thank you for playing! Goodbye!");
