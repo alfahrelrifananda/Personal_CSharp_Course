@@ -544,6 +544,59 @@ public class Program
         */
 
         // ! 20.
-        // * 
+        // * Simple Calculator Program
+
+        do
+        {
+            double num1 = 0;
+            double num2 = 0;
+            double result = 0;
+
+            System.Console.WriteLine("=================================");
+            System.Console.WriteLine("Welcome to the Simple Calculator!");
+            System.Console.WriteLine("=================================");
+            System.Console.Write("Enter the first number: ");
+            num1 = Convert.ToDouble(Console.ReadLine());
+            System.Console.Write("Enter the second number: ");
+            num2 = Convert.ToDouble(Console.ReadLine());
+            System.Console.WriteLine("Choose an operation:");
+            System.Console.WriteLine("\t Addition (+)");
+            System.Console.WriteLine("\t Subtraction (-)");
+            System.Console.WriteLine("\t Multiplication (*)");
+            System.Console.WriteLine("\t Division (/)");
+            System.Console.Write("Enter your choice : ");
+
+            switch (Console.ReadLine())
+            {
+                case "+":
+                    result = num1 + num2;
+                    System.Console.WriteLine("Result: " + result);
+                    break;
+                case "-":
+                    result = num1 - num2;
+                    System.Console.WriteLine("Result: " + result);
+                    break;
+                case "*":
+                    result = num1 * num2;
+                    System.Console.WriteLine("Result: " + result);
+                    break;
+                case "/":
+                    if (num2 != 0)
+                    {
+                        result = num1 / num2;
+                        System.Console.WriteLine("Result: " + result);
+                    }
+                    else
+                    {
+                        System.Console.WriteLine("Error: Division by zero is not allowed.");
+                    }
+                    break;
+                default:
+                    System.Console.WriteLine("Invalid operation! Please try again.");
+                    break;
+            }
+            System.Console.Write("Would you like to perform another calculation? (Y/N): ");
+        } while (Console.ReadLine().ToLower() == "y");
+        System.Console.WriteLine("Thank you for using the calculator! Goodbye!");
     }
 }
