@@ -638,5 +638,29 @@ public class Program
             System.Console.WriteLine(car);
         }
         */
+
+        // ! 23.
+        // * Methods
+        String name = "Fahrel";
+        int age = 20;
+
+        String dude = "Spongebob";
+        int dudeAge = 28;
+
+        String anotherDude = "Patrick";
+        int anotherDudeAge = 32;
+
+        singHappyBirthday(name, age);
+        singHappyBirthday(dude, dudeAge);
+        singHappyBirthday(anotherDude, anotherDudeAge);
+    }
+
+    static void singHappyBirthday(String n, int a)
+    {
+        System.Console.WriteLine("Happy birthday to you");
+        System.Console.WriteLine("Happy birthday to you");
+        System.Console.WriteLine("Happy birthday dear " + n);
+        System.Console.WriteLine("Happy birthday to you");
+        System.Console.WriteLine("You are now " + a + " years old!");
     }
 }
