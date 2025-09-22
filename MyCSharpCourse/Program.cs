@@ -603,15 +603,16 @@ public class Program
         // ! 21.
         // * Array
         // Declare empty array (fixed size)
+        /*
         String[] cars = new String[3];
         cars[0] = "BMW";
         cars[1] = "Mustang";
         cars[2] = "Ford";
-
+        */
         // String[] cars = { "BMW", "Mustang", "Ford" };
 
         // Replace element
-        cars[0] = "Lamborghini";
+        // cars[0] = "Lamborghini";
 
         /*
         System.Console.WriteLine(cars[0]);
@@ -620,9 +621,22 @@ public class Program
         */
 
         // Using loops to iterate through array
+        /*
         for (int i = 0; i < cars.Length; i++)
         {
             System.Console.WriteLine(cars[i]);
         }
+        */
+
+        // ! 22.
+        // * Foreach loop
+        /*
+        String[] cars = { "BMW", "Mustang", "Ford" };
+
+        foreach (String car in cars)
+        {
+            System.Console.WriteLine(car);
+        }
+        */
     }
 }
