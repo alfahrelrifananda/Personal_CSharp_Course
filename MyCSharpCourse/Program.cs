@@ -545,7 +545,7 @@ public class Program
 
         // ! 20.
         // * Simple Calculator Program
-
+        /*
         do
         {
             double num1 = 0;
@@ -598,5 +598,31 @@ public class Program
             System.Console.Write("Would you like to perform another calculation? (Y/N): ");
         } while (Console.ReadLine().ToLower() == "y");
         System.Console.WriteLine("Thank you for using the calculator! Goodbye!");
+        */
+
+        // ! 21.
+        // * Array
+        // Declare empty array (fixed size)
+        String[] cars = new String[3];
+        cars[0] = "BMW";
+        cars[1] = "Mustang";
+        cars[2] = "Ford";
+
+        // String[] cars = { "BMW", "Mustang", "Ford" };
+
+        // Replace element
+        cars[0] = "Lamborghini";
+
+        /*
+        System.Console.WriteLine(cars[0]);
+        System.Console.WriteLine(cars[1]);
+        System.Console.WriteLine(cars[2]);
+        */
+
+        // Using loops to iterate through array
+        for (int i = 0; i < cars.Length; i++)
+        {
+            System.Console.WriteLine(cars[i]);
+        }
     }
 }
