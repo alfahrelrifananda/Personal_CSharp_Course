@@ -641,6 +641,7 @@ public class Program
 
         // ! 23.
         // * Methods
+        /*
         String name = "Fahrel";
         int age = 20;
 
@@ -653,8 +654,29 @@ public class Program
         singHappyBirthday(name, age);
         singHappyBirthday(dude, dudeAge);
         singHappyBirthday(anotherDude, anotherDudeAge);
-    }
+        */
 
+        // ! 24.
+        // * Return keyword
+        double x;
+        double y;
+        double result;
+
+        System.Console.Write("Enter first number: ");
+        x = Convert.ToDouble(Console.ReadLine());
+
+        System.Console.Write("Enter second number: ");
+        y = Convert.ToDouble(Console.ReadLine());
+
+        result = multiplyNumbers(x, y);
+        System.Console.WriteLine(result);
+    }
+    // To use return keyword, change void to datatype
+    static double multiplyNumbers(double a, double b)
+    {
+        double z = a * b;
+        return z;
+    }
     static void singHappyBirthday(String n, int a)
     {
         System.Console.WriteLine("Happy birthday to you");
