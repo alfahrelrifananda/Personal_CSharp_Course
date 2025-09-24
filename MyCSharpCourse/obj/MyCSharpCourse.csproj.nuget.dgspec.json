@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/rel/Documents/Development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/MyCSharpCourse.csproj": {}
+    "/home/rel/personal/development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/MyCSharpCourse.csproj": {}
   },
   "projects": {
-    "/home/rel/Documents/Development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/MyCSharpCourse.csproj": {
+    "/home/rel/personal/development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/MyCSharpCourse.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/rel/Documents/Development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/MyCSharpCourse.csproj",
+        "projectUniqueName": "/home/rel/personal/development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/MyCSharpCourse.csproj",
         "projectName": "MyCSharpCourse",
-        "projectPath": "/home/rel/Documents/Development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/MyCSharpCourse.csproj",
+        "projectPath": "/home/rel/personal/development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/MyCSharpCourse.csproj",
         "packagesPath": "/home/rel/.nuget/packages/",
-        "outputPath": "/home/rel/Documents/Development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/obj/",
+        "outputPath": "/home/rel/personal/development/CSHARP/Personal_CSharp_Course/MyCSharpCourse/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/rel/.nuget/NuGet/NuGet.Config"

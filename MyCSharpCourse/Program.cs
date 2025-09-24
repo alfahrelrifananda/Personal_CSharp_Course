@@ -658,6 +658,7 @@ public class Program
 
         // ! 24.
         // * Return keyword
+        /*
         double x;
         double y;
         double result;
@@ -670,13 +671,32 @@ public class Program
 
         result = multiplyNumbers(x, y);
         System.Console.WriteLine(result);
+        */
+
+        // ! 25.
+        // * Method Overloading = same method name, different parameters
+        System.Console.WriteLine(multiplyNum(2, 4));
+        System.Console.WriteLine(multiplyNum(2, 4, 6));
     }
+
+    static double multiplyNum(double a, double b)
+    {
+        double z = a * b;
+        return z;
+    }
+    static double multiplyNum(double a, double b, double c)
+    {
+        double z = a * b * c;
+        return z;
+    }
+
     // To use return keyword, change void to datatype
     static double multiplyNumbers(double a, double b)
     {
         double z = a * b;
         return z;
     }
+
     static void singHappyBirthday(String n, int a)
     {
         System.Console.WriteLine("Happy birthday to you");
