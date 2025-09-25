@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
+using System.ComponentModel.Design;
 
 public class Program
 {
@@ -675,8 +676,28 @@ public class Program
 
         // ! 25.
         // * Method Overloading = same method name, different parameters
+        /*
         System.Console.WriteLine(multiplyNum(2, 4));
         System.Console.WriteLine(multiplyNum(2, 4, 6));
+        */
+
+        // ! 26.
+        // * Params keyword = pass multiple arguments into a method
+        double price1 = 4.99;
+        double price2 = 5.49;
+        double price3 = 1.99;
+
+        System.Console.WriteLine(checkout(price1, price2, price3));
+    }
+
+    static double checkout(params double[] prices)
+    {
+        double total = 0;
+        foreach (double price in prices)
+        {
+            total += price;
+        }
+        return total;
     }
 
     static double multiplyNum(double a, double b)
