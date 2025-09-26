@@ -693,16 +693,16 @@ public class Program
 
         // ! 27.
         // * Exception Handling
-
+        /*
         double x;
         double y;
         double result;
 
         try
         {
-            System.Console.WriteLine("Enter the first number : ");
+            System.Console.Write("Enter the first number : ");
             x = Convert.ToDouble(System.Console.ReadLine());
-            System.Console.WriteLine("Enter the second number : ");
+            System.Console.Write("Enter the second number : ");
             y = Convert.ToDouble(System.Console.ReadLine());
 
             result = x / y;
@@ -713,9 +713,37 @@ public class Program
             System.Console.WriteLine("Something went wrong");
         }
         finally
-        { 
+        {
             System.Console.WriteLine("Finished");
         }
+        */
+
+        // ! 28.
+        // * Condition Operator
+        /*
+        double temperature = 23;
+        string message;
+
+        if (temperature >= 30)
+        {
+            message = "Its warm outside";
+        }
+        else
+        {
+            message = "Its cold outside";
+        }
+
+        System.Console.WriteLine(message);
+        */
+
+        // Shortcut / Conditional Operator
+        double temperature = 29;
+        string message;
+        message = (temperature >= 30) ? "Its warm outside" : "Its cold outside";
+        System.Console.WriteLine(message);
+
+        // More short
+        System.Console.WriteLine((temperature >= 30) ? "Its warm outside" : "Its cold outside");
     }
 
     static double checkout(params double[] prices)
