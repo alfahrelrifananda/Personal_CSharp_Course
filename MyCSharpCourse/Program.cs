@@ -683,11 +683,39 @@ public class Program
 
         // ! 26.
         // * Params keyword = pass multiple arguments into a method
+        /*
         double price1 = 4.99;
         double price2 = 5.49;
         double price3 = 1.99;
 
         System.Console.WriteLine(checkout(price1, price2, price3));
+        */
+
+        // ! 27.
+        // * Exception Handling
+
+        double x;
+        double y;
+        double result;
+
+        try
+        {
+            System.Console.WriteLine("Enter the first number : ");
+            x = Convert.ToDouble(System.Console.ReadLine());
+            System.Console.WriteLine("Enter the second number : ");
+            y = Convert.ToDouble(System.Console.ReadLine());
+
+            result = x / y;
+            System.Console.WriteLine("Result : " + result);
+        }
+        catch (System.Exception)
+        {
+            System.Console.WriteLine("Something went wrong");
+        }
+        finally
+        { 
+            System.Console.WriteLine("Finished");
+        }
     }
 
     static double checkout(params double[] prices)
@@ -705,6 +733,7 @@ public class Program
         double z = a * b;
         return z;
     }
+
     static double multiplyNum(double a, double b, double c)
     {
         double z = a * b * c;
