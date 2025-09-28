@@ -737,13 +737,24 @@ public class Program
         */
 
         // Shortcut / Conditional Operator
+        /*
         double temperature = 29;
         string message;
         message = (temperature >= 30) ? "Its warm outside" : "Its cold outside";
         System.Console.WriteLine(message);
-
+        */
         // More short
-        System.Console.WriteLine((temperature >= 30) ? "Its warm outside" : "Its cold outside");
+        // System.Console.WriteLine((temperature >= 30) ? "Its warm outside" : "Its cold outside");
+
+        // ! 29.
+        // * String interpolation = {}
+        String name = "Fahrel";
+        int age = 20;
+
+        // System.Console.WriteLine("Hello " + name + " you are " + age + " years old");
+        System.Console.WriteLine($"Hello {name} you are {age} years old");
+        System.Console.WriteLine($"Hello {name} you are {age, 10} years old");
+        System.Console.WriteLine($"Hello {name} you are {age, -10} years old");
     }
 
     static double checkout(params double[] prices)
