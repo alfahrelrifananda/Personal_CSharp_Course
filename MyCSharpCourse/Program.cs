@@ -748,6 +748,7 @@ public class Program
 
         // ! 29.
         // * String interpolation = {}
+        /*
         String name = "Fahrel";
         int age = 20;
 
@@ -755,6 +756,39 @@ public class Program
         System.Console.WriteLine($"Hello {name} you are {age} years old");
         System.Console.WriteLine($"Hello {name} you are {age, 10} years old");
         System.Console.WriteLine($"Hello {name} you are {age, -10} years old");
+        */
+
+        // ! 30.
+        // * Multidimensional array
+        /*
+        String[] fruits1 = { "Apple", "Banana", "Pineapple" };
+        String[] fruits2 = { "Durian", "Coconut", "Manggo" };
+        String[] fruits3 = { "Strawberry", "Grape", "Pier" };
+
+        String[,] allFruits =
+        {
+            { "Apple", "Banana", "Pineapple" },
+            { "Durian", "Coconut", "Manggo" },
+            { "Strawberry", "Grape", "Pier" },
+        };
+
+        allFruits[1, 0] = "Blueberry";
+        System.Console.WriteLine(allFruits[0, 1]);
+
+        foreach (var fruit in allFruits)
+        {
+            System.Console.WriteLine(fruit);
+        }
+
+        for (int i = 0; i < allFruits.GetLength(0); i++)
+        {
+            for (int j = 0; j < allFruits.GetLength(1); j++)
+            {
+                System.Console.Write(allFruits[i, j] + " ");
+            }
+            System.Console.WriteLine();
+        }
+        */
     }
 
     static double checkout(params double[] prices)
