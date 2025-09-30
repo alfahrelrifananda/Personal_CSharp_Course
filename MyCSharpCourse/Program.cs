@@ -2,9 +2,9 @@
 using System;
 using System.ComponentModel.Design;
 using System.Runtime.InteropServices.JavaScript;
-using MyNamespace;
+using MyCSharpCourse;
 
-namespace MyFirstCSharpProgram
+namespace MyCSharpCourse
 {
     public class Program
     {
@@ -798,6 +798,8 @@ namespace MyFirstCSharpProgram
             Message.Hello();
             Message.Waiting();
             Message.Goodbye();
+
+            // !
         }
 
         static double checkout(params double[] prices)

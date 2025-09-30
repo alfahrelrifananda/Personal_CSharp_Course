@@ -1,6 +1,6 @@
 using System;
 
-namespace MyNamespace
+namespace MyCSharpCourse
 {
     public static class Message
     {
