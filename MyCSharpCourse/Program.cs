@@ -794,12 +794,10 @@ namespace MyCSharpCourse
             }
             */
             // ! 31.
-            // * Classes
+            // * Classes = Object Oriented Programming
             Message.Hello();
             Message.Waiting();
             Message.Goodbye();
-
-            // !
         }
 
         static double checkout(params double[] prices)
