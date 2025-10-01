@@ -812,17 +812,17 @@ namespace MyCSharpCourse
             human2.name = "Patrick";
             human2.age = 32;
 
+            System.Console.WriteLine("=================================");
             human1.sayHello();
-            human2.sayHello();
-
             human1.walking();
-            human2.walking();
-
             human1.eating();
+            human1.sleeping(8);
+            System.Console.WriteLine("=================================");
+            human2.sayHello();
+            human2.walking();
             human2.eating();
-
-            human1.sleeping();
-            human2.sleeping();
+            human2.sleeping(15);
+            System.Console.WriteLine("=================================");
         }
 
         static double checkout(params double[] prices)
@@ -885,9 +885,9 @@ namespace MyCSharpCourse
             System.Console.WriteLine($"{name} is eating");
         }
 
-        public void sleeping()
+        public void sleeping(int hours)
         {
-            System.Console.WriteLine($"{name} is sleeping");
+            System.Console.WriteLine($"{name} is sleeping for {hours} hours");
         }
     }
 }
