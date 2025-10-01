@@ -795,9 +795,34 @@ namespace MyCSharpCourse
             */
             // ! 31.
             // * Classes = Object Oriented Programming
+            /*
             Message.Hello();
             Message.Waiting();
             Message.Goodbye();
+            */
+
+            // ! 32.
+            // * Object = instance of a class
+            Human human1 = new Human();
+            Human human2 = new Human();
+
+            human1.name = "Spongebob";
+            human1.age = 28;
+
+            human2.name = "Patrick";
+            human2.age = 32;
+
+            human1.sayHello();
+            human2.sayHello();
+
+            human1.walking();
+            human2.walking();
+
+            human1.eating();
+            human2.eating();
+
+            human1.sleeping();
+            human2.sleeping();
         }
 
         static double checkout(params double[] prices)
@@ -836,6 +861,33 @@ namespace MyCSharpCourse
             System.Console.WriteLine("Happy birthday dear " + n);
             System.Console.WriteLine("Happy birthday to you");
             System.Console.WriteLine("You are now " + a + " years old!");
+        }
+    }
+
+    class Human
+    {
+        public String name;
+        public int age;
+
+        public void sayHello()
+        {
+            System.Console.WriteLine($"Hello {name}");
+            System.Console.WriteLine($"You are {age} years old");
+        }
+
+        public void walking()
+        {
+            System.Console.WriteLine($"{name} is walking");
+        }
+
+        public void eating()
+        {
+            System.Console.WriteLine($"{name} is eating");
+        }
+
+        public void sleeping()
+        {
+            System.Console.WriteLine($"{name} is sleeping");
         }
     }
 }
