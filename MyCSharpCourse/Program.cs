@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
 using System.ComponentModel.Design;
+using System.Globalization;
 using System.Runtime.InteropServices.JavaScript;
 using MyCSharpCourse;
 
@@ -634,7 +635,7 @@ namespace MyCSharpCourse
             */
 
             // ! 22.
-            // * Foreach loop
+            // * Foreach loop = foreach
             /*
             String[] cars = { "BMW", "Mustang", "Ford" };
     
@@ -645,7 +646,7 @@ namespace MyCSharpCourse
             */
 
             // ! 23.
-            // * Methods
+            // * Methods = function
             /*
             String name = "Fahrel";
             int age = 20;
@@ -662,7 +663,7 @@ namespace MyCSharpCourse
             */
 
             // ! 24.
-            // * Return keyword
+            // * Return keyword = return datatype
             /*
             double x;
             double y;
@@ -696,7 +697,7 @@ namespace MyCSharpCourse
             */
 
             // ! 27.
-            // * Exception Handling
+            // * Exception Handling = try catch finally
             /*
             double x;
             double y;
@@ -723,7 +724,7 @@ namespace MyCSharpCourse
             */
 
             // ! 28.
-            // * Condition Operator
+            // * Condition Operator = if else
             /*
             double temperature = 23;
             string message;
@@ -751,7 +752,7 @@ namespace MyCSharpCourse
             // System.Console.WriteLine((temperature >= 30) ? "Its warm outside" : "Its cold outside");
 
             // ! 29.
-            // * String interpolation = {}
+            // * String interpolation = {} in C#
             /*
             String name = "Fahrel";
             int age = 20;
@@ -763,7 +764,7 @@ namespace MyCSharpCourse
             */
 
             // ! 30.
-            // * Multidimensional array
+            // * Multidimensional array = array of array
             /*
             String[] fruits1 = { "Apple", "Banana", "Pineapple" };
             String[] fruits2 = { "Durian", "Coconut", "Manggo" };
@@ -802,7 +803,7 @@ namespace MyCSharpCourse
             */
 
             // ! 32.
-            // * Object = instance of a class
+            // * Object = instance of a class and have a field and method
             Human human1 = new Human();
             Human human2 = new Human();
 
