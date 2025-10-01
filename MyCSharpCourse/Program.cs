@@ -804,13 +804,14 @@ namespace MyCSharpCourse
 
             // ! 32.
             // * Object = instance of a class and have a field and method
+            /*
             Human human1 = new Human();
             Human human2 = new Human();
 
-            human1.name = "Spongebob";
+            human1.name = "Rick";
             human1.age = 28;
 
-            human2.name = "Patrick";
+            human2.name = "Morty";
             human2.age = 32;
 
             System.Console.WriteLine("=================================");
@@ -824,6 +825,17 @@ namespace MyCSharpCourse
             human2.eating();
             human2.sleeping(15);
             System.Console.WriteLine("=================================");
+            */
+
+            // ! 33.
+            // * Constructor = its a method that is called when an object is created
+            Car car1 = new Car("BMW", 2015, "Red", 10000);
+            Car car2 = new Car("Mustang", 2020, "Blue", 15000);
+            System.Console.WriteLine("===================================================");
+            car1.drive();
+            System.Console.WriteLine("===================================================");
+            car2.drive();
+            System.Console.WriteLine("===================================================");
         }
 
         static double checkout(params double[] prices)
@@ -889,6 +901,29 @@ namespace MyCSharpCourse
         public void sleeping(int hours)
         {
             System.Console.WriteLine($"{name} is sleeping for {hours} hours");
+        }
+    }
+
+    class Car
+    {
+        public String model;
+        public int year;
+        public String color;
+        public int price;
+
+        public Car(String m, int y, String c, int p)
+        {
+            this.model = m;
+            this.year = y;
+            this.color = c;
+            this.price = p;
+        }
+
+        public void drive()
+        {
+            System.Console.WriteLine(
+                $"You drove the ${price} Dollar {color} {year} {model}"
+            );
         }
     }
 }
