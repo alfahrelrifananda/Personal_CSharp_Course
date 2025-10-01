@@ -829,6 +829,7 @@ namespace MyCSharpCourse
 
             // ! 33.
             // * Constructor = its a method that is called when an object is created
+            /*
             Car car1 = new Car("BMW", 2015, "Red", 10000);
             Car car2 = new Car("Mustang", 2020, "Blue", 15000);
             System.Console.WriteLine("===================================================");
@@ -836,6 +837,22 @@ namespace MyCSharpCourse
             System.Console.WriteLine("===================================================");
             car2.drive();
             System.Console.WriteLine("===================================================");
+            */
+
+            // ! 34.
+            // * Static = modifier that belongs to a class
+            Cars car1 = new Cars("BMW");
+            Cars car2 = new Cars("Mustang");
+
+            // Without static
+            // System.Console.WriteLine(car1.numberOfCars);
+            // System.Console.WriteLine(car2.numberOfCars);
+
+            // With static
+            System.Console.WriteLine(Cars.numberOfCars);
+
+            // Static method
+            Cars.Race();
         }
 
         static double checkout(params double[] prices)
@@ -922,6 +939,23 @@ namespace MyCSharpCourse
         public void drive()
         {
             System.Console.WriteLine($"You drove the ${price} Dollar {color} {year} {model}");
+        }
+    }
+
+    class Cars
+    {
+        string model;
+        public static int numberOfCars = 0;
+
+        public Cars(string m)
+        {
+            this.model = m;
+            numberOfCars++;
+        }
+
+        public static void Race()
+        {
+            System.Console.WriteLine("The race has begun!");
         }
     }
 }
