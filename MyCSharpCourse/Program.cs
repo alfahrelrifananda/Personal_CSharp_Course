@@ -921,9 +921,7 @@ namespace MyCSharpCourse
 
         public void drive()
         {
-            System.Console.WriteLine(
-                $"You drove the ${price} Dollar {color} {year} {model}"
-            );
+            System.Console.WriteLine($"You drove the ${price} Dollar {color} {year} {model}");
         }
     }
 }
