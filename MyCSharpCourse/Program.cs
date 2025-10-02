@@ -841,6 +841,7 @@ namespace MyCSharpCourse
 
             // ! 34.
             // * Static = modifier that belongs to a class
+            /*
             Cars car1 = new Cars("BMW");
             Cars car2 = new Cars("Mustang");
 
@@ -853,6 +854,14 @@ namespace MyCSharpCourse
 
             // Static method
             Cars.Race();
+            */
+
+            // ! 35.
+            // * Overloaded Constructor = same name, different parameters
+            Pizza pizza1 = new Pizza("Cheese");
+            Pizza pizza2 = new Pizza("Cheese", "Tomato");
+            Pizza pizza3 = new Pizza("Cheese", "Tomato", "Olive");
+            Pizza pizza4 = new Pizza("Cheese", "Tomato", "Olive", "Pepperoni");
         }
 
         static double checkout(params double[] prices)
@@ -956,6 +965,40 @@ namespace MyCSharpCourse
         public static void Race()
         {
             System.Console.WriteLine("The race has begun!");
+        }
+    }
+
+    class Pizza
+    {
+        public String bread;
+        public String cheese;
+        public String sauce;
+        public String topping;
+
+        public Pizza(String b)
+        {
+            this.bread = b;
+        }
+
+        public Pizza(String b, String c)
+        {
+            this.bread = b;
+            this.cheese = c;
+        }
+
+        public Pizza(String b, String c, String s)
+        {
+            this.bread = b;
+            this.cheese = c;
+            this.sauce = s;
+        }
+
+        public Pizza(String b, String c, String s, String t)
+        {
+            this.bread = b;
+            this.cheese = c;
+            this.sauce = s;
+            this.topping = t;
         }
     }
 }
