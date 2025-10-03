@@ -858,10 +858,31 @@ namespace MyCSharpCourse
 
             // ! 35.
             // * Overloaded Constructor = same name, different parameters
+            /*
             Pizza pizza1 = new Pizza("Cheese");
             Pizza pizza2 = new Pizza("Cheese", "Tomato");
             Pizza pizza3 = new Pizza("Cheese", "Tomato", "Olive");
             Pizza pizza4 = new Pizza("Cheese", "Tomato", "Olive", "Pepperoni");
+            */
+
+            // ! 36.
+            // * Inheritance = class that inherits from another class
+            // ? REMEMBER THAT PARENT CLASS CANNOT HAVE STATIC METHOD OR FIELD IF YOU WANT TO INHERIT IT
+            Bus bus = new Bus();
+            Bicycle bicycle = new Bicycle();
+            Boat boat = new Boat();
+
+            System.Console.WriteLine(bus.speed);
+            System.Console.WriteLine(bus.wheel);
+            bus.itsMoving();
+
+            System.Console.WriteLine(bicycle.speed);
+            System.Console.WriteLine(bicycle.wheel);
+            bicycle.itsMoving();
+
+            System.Console.WriteLine(boat.speed);
+            System.Console.WriteLine(boat.wheel);
+            boat.itsMoving();
         }
 
         static double checkout(params double[] prices)
@@ -1000,5 +1021,30 @@ namespace MyCSharpCourse
             this.sauce = s;
             this.topping = t;
         }
+    }
+
+    class Vehicle
+    {
+        public int speed = 0;
+
+        public void itsMoving()
+        {
+            System.Console.WriteLine("The vehicle is moving");
+        }
+    }
+
+    class Bus : Vehicle
+    {
+        public int wheel = 4;
+    }
+
+    class Bicycle : Vehicle
+    {
+        public int wheel = 2;
+    }
+
+    class Boat : Vehicle
+    {
+        public int wheel = 0;
     }
 }
