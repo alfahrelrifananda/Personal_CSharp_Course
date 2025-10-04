@@ -888,14 +888,45 @@ namespace MyCSharpCourse
 
             // ! 37.
             // * Abstract Class = modifier that cannot be instantiated
-
+            /*
             Bus bus = new Bus();
             Bicycle bicycle = new Bicycle();
             Boat boat = new Boat();
 
-            // ? If somebody try to instantiate Vehicle class, it will error
+            // ? If somebody try to instantiate Vehicle class, it doesnt make any sense
             // ? Its like chossing an invisible vehicle that you cannot see
             // Vehicle vehicle = new Vehicle();
+            */
+
+            // ! 38.
+            // * Array of Objects = its an array that contains objects
+            /*
+            RaceCar[] raceCars = new RaceCar[3];
+
+            RaceCar raceCar1 = new RaceCar("BMW");
+            RaceCar raceCar2 = new RaceCar("Mustang");
+            RaceCar raceCar3 = new RaceCar("Ferrari");
+
+            raceCars[0] = raceCar1;
+            raceCars[1] = raceCar2;
+            raceCars[2] = raceCar3;
+
+            System.Console.WriteLine(raceCars[0].model);
+            System.Console.WriteLine(raceCars[1].model);
+            System.Console.WriteLine(raceCars[2].model);
+            */
+            // ? Better way to inisiate and display array of objects
+            RaceCar[] raceCars =
+            {
+                new RaceCar("BMW"),
+                new RaceCar("Mustang"),
+                new RaceCar("Ferrari"),
+            };
+
+            foreach (RaceCar raceCar in raceCars)
+            {
+                System.Console.WriteLine(raceCar.model);
+            }
         }
 
         static double checkout(params double[] prices)
@@ -1059,5 +1090,15 @@ namespace MyCSharpCourse
     class Boat : Vehicle
     {
         public int wheel = 0;
+    }
+
+    class RaceCar
+    {
+        public String model;
+
+        public RaceCar(String m)
+        {
+            this.model = m;
+        }
     }
 }
