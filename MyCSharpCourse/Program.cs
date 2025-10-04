@@ -868,6 +868,7 @@ namespace MyCSharpCourse
             // ! 36.
             // * Inheritance = class that inherits from another class
             // ? REMEMBER THAT PARENT CLASS CANNOT HAVE STATIC METHOD OR FIELD IF YOU WANT TO INHERIT IT
+            /*
             Bus bus = new Bus();
             Bicycle bicycle = new Bicycle();
             Boat boat = new Boat();
@@ -883,6 +884,18 @@ namespace MyCSharpCourse
             System.Console.WriteLine(boat.speed);
             System.Console.WriteLine(boat.wheel);
             boat.itsMoving();
+            */
+
+            // ! 37.
+            // * Abstract Class = modifier that cannot be instantiated
+
+            Bus bus = new Bus();
+            Bicycle bicycle = new Bicycle();
+            Boat boat = new Boat();
+
+            // ? If somebody try to instantiate Vehicle class, it will error
+            // ? Its like chossing an invisible vehicle that you cannot see
+            // Vehicle vehicle = new Vehicle();
         }
 
         static double checkout(params double[] prices)
@@ -1023,7 +1036,7 @@ namespace MyCSharpCourse
         }
     }
 
-    class Vehicle
+    abstract class Vehicle
     {
         public int speed = 0;
 
